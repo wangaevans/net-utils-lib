@@ -1,0 +1,36 @@
+{
+  "name": "net-utils-lib",
+  "version": "1.0.3",
+  "description": "A TypeScript library for network utilities.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepare": "npm run build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-jest": "^29.0.0",
+    "@types/jest": "^29.0.0",
+    "jest": "^29.0.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "Wanga Evans",
+  "license": "MIT",
+  "keywords": [
+    "network",
+    "utils",
+    "typescript",
+    "IP",
+    "CIDR",
+    "subnet",
+    "IP address",
+    "networking",
+    "subnetting",
+    "vlsm"
+  ]
+}
