@@ -18,23 +18,21 @@ yarn add net-utils-lib
 
 ## Usage
 
-Here's a basic example of how to use the `NetUtilsLib` class:
+Here's a basic example of how to use the utilities provided by this package:
 
 ```typescript
-import NetUtilsLib from 'net-utils-lib';
-
-const netLib = new NetUtilsLib();
+import {isValidIPv4} from 'net-utils-lib';
 
 // Check if an IP address is valid
-const isValid = netLib.isValidIPv4('192.168.1.1');
+const isValid = isValidIPv4('192.168.1.1');
 console.log(`Is valid IP: ${isValid}`);
 
 // Calculate the network address
-const networkAddress = netLib.calculateNetworkAddress('192.168.1.10', '255.255.255.0');
+const networkAddress = calculateNetworkAddress('192.168.1.10', '255.255.255.0');
 console.log(`Network Address: ${networkAddress}`);
 
 // Calculate available IPs in a subnet
-const availableIPs = netLib.calculateAvailableIPs('24');
+const availableIPs = calculateAvailableIPs('24');
 console.log(`Available IPs: ${availableIPs}`);
 ```
 

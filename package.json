@@ -1,6 +1,6 @@
 {
   "name": "net-utils-lib",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A TypeScript library for network utilities.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
